@@ -1,0 +1,30 @@
+h1.title{
+    color:#abf586;
+    line-height: 150%;
+    font-style: italic;
+    text-align: center;
+    font-size: 50px;
+}
+h3.title{
+    color:#35abc5;
+    line-height: 150%;
+    font-style: oblique;
+    text-align: center;
+}
+h1.text{
+    color:#ff0000;
+    line-height: 150%;
+    text-align: center;
+}
+body{
+  background-color: #2d2d2d;
+}
+img.gif{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+h3.texting{
+    text-align: center;
+}
