@@ -1,7 +1,8 @@
 1 - Como o navegador utiliza a codificação de carecteres para renderizar (processar e exibir) os textos na tela?
 
 R: O navegador precisa saber qual é a codificação em base na linguagem na qual ele vai processar/exibir as informações, dentro 
-muitas a masi populare mais famosa é a UFT-8, que é o processamento de 8bit Unicode Transformation Format, ou seja via processamento binário.
+muitas a masi populare mais famosa é a UFT-8, que é o processamento de 8bit Unicode Transformation Format, ou seja via 
+processamento binário.
 
 
 2-Para especificar a codificação de caracteres na HTML pode ser utilizado para o elemento <meta>. Nesse sentido, o que muda na HTML 5?
@@ -17,13 +18,13 @@ uso da ferramenta de estilização CCS em sua terceira versão, vulgo CSS3.
 
 R: São varias, dentre as mais básicas podemos estruturar:
 
-`<!DOCTYPE html> <!-- Define o documento como HTML -->`
-`<html lang="pt-br"> <!-- Primeira tag a ser passada, instruindo, e definindo lang como pt-br -->`
-    `<head> <-- Conjunto com informações importantes para seu site -->`
-        `<meta charset="utf-8"/> <!-- Define a codificação da pagina -->`
-        `<title>Titulo do site</title> <!-- Titulo a ser exibido na aba do navegador -->`
-    `</head>`
-    `<body>`
-   `<!-- conteudo do site -->`
-    `</body>`
-`</html>`
+<!DOCTYPE html> <!-- Define o documento como HTML -->
+<html lang="pt-br"> <!-- Primeira tag a ser passada, instruindo, e definindo lang como pt-br -->
+    <head> <-- Conjunto com informações importantes para seu site -->
+        <meta charset="utf-8"/> <!-- Define a codificação da pagina -->
+        <title>Titulo do site</title> <!-- Titulo a ser exibido na aba do navegador -->
+    </head>
+    <body>
+   <!-- conteudo do site -->
+    </body>
+</html>
