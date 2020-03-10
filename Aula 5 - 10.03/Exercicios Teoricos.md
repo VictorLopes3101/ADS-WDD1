@@ -15,7 +15,7 @@ R: A W3C passou a desencorajar esse tipo de atributo, pois além  rudimentar, ca
 
 R: São varias, dentre as mais básicas podemos estruturar:
 
-<!DOCTYPE html> <!-- Define o documento como HTML -->
+`<!DOCTYPE html> <!-- Define o documento como HTML -->
 <html lang="pt-br"> <!-- Primeira tag a ser passada, instruindo, e definindo lang como pt-br -->
     <head> <-- Conjunto com informações importantes para seu site -->
         <meta charset="utf-8"/> <!-- Define a codificação da pagina -->
@@ -24,4 +24,4 @@ R: São varias, dentre as mais básicas podemos estruturar:
     <body>
    <!-- conteudo do site -->
     </body>
-</html>
+</html>`
