@@ -7,7 +7,6 @@ R: O navegador precisa saber qual é a codificação em base na linguagem na qua
 
 R: Que por ter escrito essa tag, você poderá passar a usar caracteres especiais para aquele tipo de codificação especificada.
 
-
 3 - A W3C desencoraja o uso de vários atributos como width, hight e border. Por que o uso desses atributos é desencorajado?
 
 R: A W3C passou a desencorajar esse tipo de atributo, pois além  rudimentar, caiu no desuso graças a implementação e o grande uso da ferramenta de estilização CCS em sua terceira versão, vulgo CSS3.
