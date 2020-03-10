@@ -1,7 +1,28 @@
-1 - Como o navegador utiliza a codifica��o de carecteres para renderizar (processar e exibir)os textos na tela?
+1 - Como o navegador utiliza a codificação de carecteres para renderizar (processar e exibir) os textos na tela?
 
-2-Para especificar a codifica��o de caracteres na HTML pode ser utilizado para o elemento <meta>. Nesse sentido, o que muda na HTML 5?
+R: O navegador precisa saber qual é a codificação em base na linguagem na qual ele vai processar/exibir as informações, dentro muitas a masi populare mais famosa é a UFT-8, que é o processamento de 8bit Unicode Transformation Format, ou seja via processamento binário.
 
-3 - A W3C desencoraja o uso de v�rios atributos como width, hight e border. Por que o uso desses atributos � desencorajado?
 
-4-Qual a sintaxe b�sica de um documento HTML 5? Explique para qu� utiliza-se cada elemento desta sintaxe.
+2-Para especificar a codificação de caracteres na HTML pode ser utilizado para o elemento <meta>. Nesse sentido, o que muda na HTML 5?
+
+R: Que por ter escrito essa tag, você poderá passar a usar caracteres especiais para aquele tipo de codificação especificada.
+
+
+3 - A W3C desencoraja o uso de vários atributos como width, hight e border. Por que o uso desses atributos é desencorajado?
+
+R: A W3C passou a desencorajar esse tipo de atributo, pois além  rudimentar, caiu no desuso graças a implementação e o grande uso da ferramenta de estilização CCS em sua terceira versão, vulgo CSS3.
+
+4-Qual a sintaxe básica de um documento HTML 5? Explique para quê utiliza-se cada elemento desta sintaxe.
+
+R: São varias, dentre as mais básicas podemos estruturar:
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Titulo do site</title>
+    </head>
+    <body>
+   <!-- conteudo do site -->
+    </body>
+</html>
