@@ -1,0 +1,7 @@
+1 - Como o navegador utiliza a codificação de carecteres para renderizar (processar e exibir)os textos na tela?
+
+2-Para especificar a codificação de caracteres na HTML pode ser utilizado para o elemento <meta>. Nesse sentido, o que muda na HTML 5?
+
+3 - A W3C desencoraja o uso de vários atributos como width, hight e border. Por que o uso desses atributos é desencorajado?
+
+4-Qual a sintaxe básica de um documento HTML 5? Explique para quê utiliza-se cada elemento desta sintaxe.
